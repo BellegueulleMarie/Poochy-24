@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\lixy2\\Documents\\Poochy-24\\24h\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{887BB62E-7DE2-4F72-B947-5A5143A4DFC5}|24h\\24h.csproj|c:\\users\\lixy2\\documents\\poochy-24\\24h\\24h\\modules\\realisations\\modulecommunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{887BB62E-7DE2-4F72-B947-5A5143A4DFC5}|24h\\24h.csproj|solutionrelative:24h\\modules\\realisations\\modulecommunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{887BB62E-7DE2-4F72-B947-5A5143A4DFC5}|24h\\24h.csproj|c:\\users\\lixy2\\documents\\poochy-24\\24h\\24h\\modules\\realisations\\moduleprisededecisions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{887BB62E-7DE2-4F72-B947-5A5143A4DFC5}|24h\\24h.csproj|solutionrelative:24h\\modules\\realisations\\moduleprisededecisions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{887BB62E-7DE2-4F72-B947-5A5143A4DFC5}|24h\\24h.csproj|c:\\users\\lixy2\\documents\\poochy-24\\24h\\24h\\ia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{887BB62E-7DE2-4F72-B947-5A5143A4DFC5}|24h\\24h.csproj|solutionrelative:24h\\ia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{887BB62E-7DE2-4F72-B947-5A5143A4DFC5}|24h\\24h.csproj|c:\\users\\lixy2\\documents\\poochy-24\\24h\\24h\\modules\\realisations\\modulecommunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{887BB62E-7DE2-4F72-B947-5A5143A4DFC5}|24h\\24h.csproj|solutionrelative:24h\\modules\\realisations\\modulecommunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{887BB62E-7DE2-4F72-B947-5A5143A4DFC5}|24h\\24h.csproj|c:\\users\\lixy2\\documents\\poochy-24\\24h\\24h\\modules\\realisations\\modulereaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,6 +17,13 @@
     {
       "AbsoluteMoniker": "D:0:0:{887BB62E-7DE2-4F72-B947-5A5143A4DFC5}|24h\\24h.csproj|c:\\users\\lixy2\\documents\\poochy-24\\24h\\24h\\modules\\realisations\\modulememoire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{887BB62E-7DE2-4F72-B947-5A5143A4DFC5}|24h\\24h.csproj|solutionrelative:24h\\modules\\realisations\\modulememoire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{887BB62E-7DE2-4F72-B947-5A5143A4DFC5}|24h\\24h.csproj|c:\\users\\lixy2\\documents\\poochy-24\\24h\\24h\\ia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{887BB62E-7DE2-4F72-B947-5A5143A4DFC5}|24h\\24h.csproj|solutionrelative:24h\\ia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{887BB62E-7DE2-4F72-B947-5A5143A4DFC5}|24h\\24h.csproj|c:\\users\\lixy2\\documents\\poochy-24\\24h\\24h\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +37,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,7 +57,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\lixy2\\Documents\\Poochy-24\\24h\\24h\\Program.cs",
               "RelativeDocumentMoniker": "24h\\Program.cs",
@@ -62,38 +65,37 @@
               "RelativeToolTip": "24h\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T15:40:45.992Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-17T15:40:45.992Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ModuleCommunication.cs",
               "DocumentMoniker": "C:\\Users\\lixy2\\Documents\\Poochy-24\\24h\\24h\\Modules\\Realisations\\ModuleCommunication.cs",
               "RelativeDocumentMoniker": "24h\\Modules\\Realisations\\ModuleCommunication.cs",
               "ToolTip": "C:\\Users\\lixy2\\Documents\\Poochy-24\\24h\\24h\\Modules\\Realisations\\ModuleCommunication.cs",
               "RelativeToolTip": "24h\\Modules\\Realisations\\ModuleCommunication.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAawEgAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAlwCIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T15:28:15.409Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "ModuleMemoire.cs",
               "DocumentMoniker": "C:\\Users\\lixy2\\Documents\\Poochy-24\\24h\\24h\\Modules\\Realisations\\ModuleMemoire.cs",
               "RelativeDocumentMoniker": "24h\\Modules\\Realisations\\ModuleMemoire.cs",
               "ToolTip": "C:\\Users\\lixy2\\Documents\\Poochy-24\\24h\\24h\\Modules\\Realisations\\ModuleMemoire.cs",
               "RelativeToolTip": "24h\\Modules\\Realisations\\ModuleMemoire.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T15:28:59.397Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ModuleReaction.cs",
               "DocumentMoniker": "C:\\Users\\lixy2\\Documents\\Poochy-24\\24h\\24h\\Modules\\Realisations\\ModuleReaction.cs",
               "RelativeDocumentMoniker": "24h\\Modules\\Realisations\\ModuleReaction.cs",
@@ -106,26 +108,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ModulePriseDeDecisions.cs",
               "DocumentMoniker": "C:\\Users\\lixy2\\Documents\\Poochy-24\\24h\\24h\\Modules\\Realisations\\ModulePriseDeDecisions.cs",
               "RelativeDocumentMoniker": "24h\\Modules\\Realisations\\ModulePriseDeDecisions.cs",
               "ToolTip": "C:\\Users\\lixy2\\Documents\\Poochy-24\\24h\\24h\\Modules\\Realisations\\ModulePriseDeDecisions.cs",
               "RelativeToolTip": "24h\\Modules\\Realisations\\ModulePriseDeDecisions.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAkwDgAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAA5wD4AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T14:38:40.612Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAOEUAAAAAAAAAAAAAPMUAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-05-17T17:26:26.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "IA.cs",
               "DocumentMoniker": "C:\\Users\\lixy2\\Documents\\Poochy-24\\24h\\24h\\IA.cs",
               "RelativeDocumentMoniker": "24h\\IA.cs",
               "ToolTip": "C:\\Users\\lixy2\\Documents\\Poochy-24\\24h\\24h\\IA.cs",
               "RelativeToolTip": "24h\\IA.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAuwFkAAABPAAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAuwGMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T14:37:35.476Z",
               "EditorCaption": ""

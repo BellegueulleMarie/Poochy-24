@@ -69,33 +69,35 @@ namespace IACryptOfTheNecroDancer
             this.ModuleCommunication.EtablirConnexion();
             
             messageRecu = this.ModuleCommunication.RecevoirMessage();
-            while (!messageRecu.StartsWith("Bonjour"))
+            while (!this.aFiniDeCommuniquer)
             {
-                //Détermination de la prochaine action
                 messageEnvoye = ModulePriseDeDecisions.DeterminerNouvelleAction(messageRecu);
-                this.ModuleCommunication.EnvoyerMessage(messageEnvoye);
-                messageRecu = this.ModuleCommunication.RecevoirMessage();
-            }
-            // Ne rien faire tant qu'on n'est pas dans un tour de jeu
-            while (!messageRecu.StartsWith("DEBUT_TOUR") && !this.aFiniDeCommuniquer) 
-            { 
-                messageRecu = this.ModuleCommunication.RecevoirMessage();
 
-                if (messageRecu == "FIN")
+                // S'il y a un message à envoyer
+                if (!string.IsNullOrEmpty(messageEnvoye))
                 {
-                    this.aFiniDeCommuniquer = true;
+                    this.moduleCommunication.EnvoyerMessage(messageEnvoye);
+                    messageRecu = this.ModuleCommunication.RecevoirMessage();
+                    this.ModuleReaction.ReagirAuMessageRecu(messageEnvoye, messageRecu);
+
+                    // Si fin de partie
+                    if (messageRecu == "FIN")
+                    {
+                        this.aFiniDeCommuniquer = true;
+                    }
                 }
+                else
+                {
+                    // Si pas d'action à envoyer, attendre prochain message
+                    messageRecu = this.ModuleCommunication.RecevoirMessage();
 
-                //Détermination de la prochaine action
-                messageEnvoye = ModulePriseDeDecisions.DeterminerNouvelleAction(messageRecu);
-
-                //Envoi du message au serveur
-                this.moduleCommunication.EnvoyerMessage(messageEnvoye);
-                //Réception du message du serveur
-                messageRecu = this.ModuleCommunication.RecevoirMessage();
-                //Réaction au message 
-                this.ModuleReaction.ReagirAuMessageRecu(messageEnvoye, messageRecu);
+                    if (messageRecu == "FIN")
+                    {
+                        this.aFiniDeCommuniquer = true;
+                    }
+                }
             }
+
             //Fermeture de la connexion
             this.ModuleCommunication.FermerConnexion();
         }
