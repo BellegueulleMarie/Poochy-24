@@ -62,7 +62,19 @@ namespace IACryptOfTheNecroDancer
             //Initialisation
             this.aFiniDeCommuniquer = false;
             string messageRecu = "";
-            string messageEnvoye = "";
+            string messageEnvoye = "POOOOSS";
+            bool initialiser = false;
+
+            //Mise en place de la connexion au serveur
+            this.ModuleCommunication.EtablirConnexion();
+            while (!initialiser)
+            {
+
+                messageRecu = this.ModuleCommunication.RecevoirMessage();
+                this.moduleCommunication.EnvoyerMessage(messageEnvoye);
+                messageRecu = this.ModuleCommunication.RecevoirMessage();
+                initialiser = true;
+            }
 
             //Mise en place de la connexion au serveur
             this.ModuleCommunication.EtablirConnexion();
@@ -72,6 +84,7 @@ namespace IACryptOfTheNecroDancer
             {
                 //Détermination de la prochaine action
                 messageEnvoye = this.ModulePriseDeDecisions.DeterminerNouvelleAction(messageRecu);
+
                 //Envoi du message au serveur
                 this.moduleCommunication.EnvoyerMessage(messageEnvoye);
                 //Réception du message du serveur
