@@ -4,7 +4,7 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using IACryptOfTheNecroDancer.Metier.Cartes.Terrains;
+
 using static IACryptOfTheNecroDancer.Metier.Cartes.Objets.TypeObjet;
 
 namespace IACryptOfTheNecroDancer.Metier.Cartes.Objets
@@ -24,7 +24,7 @@ namespace IACryptOfTheNecroDancer.Metier.Cartes.Objets
         /// Initialise un diamant à une position précise sur la carte
         /// </summary>
         /// <param name="position">La case où se trouve le diamant.</param>
-        public ObjetDiamant(Case position) : base(position) {}
+
         #endregion
 
     }

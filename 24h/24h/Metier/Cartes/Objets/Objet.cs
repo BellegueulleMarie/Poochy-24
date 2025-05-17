@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using IACryptOfTheNecroDancer.Metier.Cartes.Terrains;
+
 
 namespace IACryptOfTheNecroDancer.Metier.Cartes.Objets
 {
@@ -13,11 +13,11 @@ namespace IACryptOfTheNecroDancer.Metier.Cartes.Objets
     public abstract class Objet
     {
         #region --- Attributs ---
-        private Case position; // La position de l'objet sur la carte
+
         #endregion
 
         #region --- Propriétés --- 
-        public Case Position {  get { return position; } } // Obtient la case où se trouve l'objet
+
         public abstract TypeObjet Type { get; } // Obtient le type d'objet spécifique (défini dans les classes dérivées)
         #endregion
 
@@ -26,10 +26,7 @@ namespace IACryptOfTheNecroDancer.Metier.Cartes.Objets
         /// Initialise un nouvel objet sur une case qu'on précise
         /// </summary>
         /// <param name="position">La case où placer l'objet.</param>
-        public Objet(Case position)
-        {
-            this.position = position;
-        }
+
         #endregion
     }
 }

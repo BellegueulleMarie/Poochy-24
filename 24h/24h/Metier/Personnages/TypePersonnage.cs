@@ -9,6 +9,6 @@ namespace _24h.Metier.Personnages
     public enum TypePersonnage
     {
         JOUEUR,
-        MONSTREs
+        MONSTRES
     }
 }

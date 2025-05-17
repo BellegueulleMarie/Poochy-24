@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using DefaultNamespace;
+
 using IACryptOfTheNecroDancer.Metier.Algorithmes;
 using IACryptOfTheNecroDancer.Metier.Cartes;
 using IACryptOfTheNecroDancer.Metier.Cartes.Objets;
@@ -43,12 +43,14 @@ namespace IACryptOfTheNecroDancer.Modules.Realisations
         public string DeterminerNouvelleAction(string messageRecuDuServeur)
         {
             string reponse = "SORTIR";
-            if (!this.IA.ModuleMemoire.HasCarte()) reponse = "CARTE";
-            else
+
+            if (messageRecuDuServeur.Contains("Carte"))
             {
-                
-                
+                //this.IA.ModuleMemoire.GenererCarte(messageRecuDuServeur);
+                //this.IA.ModuleReaction.ReagirAuMessageRecu("Carte", messageRecuDuServeur);
+                //reponse = this.IA.ModuleMemoire.Joueur.AfficherCarte();
             }
+
             if (reponse == "SORTIR")
             {
                 this.IA.ArreterLaCommunication();

@@ -15,14 +15,13 @@ namespace IACryptOfTheNecroDancer.Modules.Realisations
     public class ModuleMemoire : Module
     {
         #region --- Attributs ---
-        private Carte carte;
+
         private Joueur joueur; 
         #endregion
 
         #region --- Propriétés ---
         public Joueur Joueur { get { return joueur; } }
-        public List<Objet> Diamants { get { return carte.Diamants; } }
-        public Carte Carte { get { return carte; } }
+
         #endregion
 
         #region --- Constructeurs ---
@@ -36,23 +35,14 @@ namespace IACryptOfTheNecroDancer.Modules.Realisations
         #region --- Méthodes ---
         public void GenererCarte(string messageRecu)
         {
-            this.carte = new Carte(messageRecu);
-            GenererJoueur(this.carte.CoordonneesDepart);
+
         }
 
         /// <summary>
         /// Renvoie si la carte a été crée ou non
         /// </summary>
         /// <returns></returns>
-        public bool HasCarte()
-        {
-            bool carteCreate = false;
-            if (this.carte != null)
-            {
-                carteCreate = true;
-            }
-            return carteCreate;
-        }
+
 
         /// <summary>
         /// Renvoie true si l’attribut joueur est non null.
@@ -72,9 +62,9 @@ namespace IACryptOfTheNecroDancer.Modules.Realisations
         /// Génère le joueur à partir des coordonnées données en paramètre.
         /// </summary>
         /// <param name="coordonnees"></param>
-        public void GenererJoueur(Coordonnees coordonnees)
+        public void GenererJoueur( )
         {
-            this.joueur = new Joueur(coordonnees);
+
         }
         #endregion
     }
