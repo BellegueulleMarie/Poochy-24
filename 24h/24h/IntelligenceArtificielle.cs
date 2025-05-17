@@ -38,7 +38,9 @@ public abstract class IntelligenceArtificielle
     /// </summary>
     public void Jouer()
     {
-        this.orchestrateur.Jouer();
+
+            this.orchestrateur.Jouer();
+
     }
 
     /// <summary>
