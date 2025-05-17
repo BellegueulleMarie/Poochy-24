@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\lisam\\OneDrive\\Documents\\Cours\\S2\\SA\u00E9\\S2.06\\Poochy-24\\24h\\",
+  "WorkspaceRootPath": "C:\\Users\\pro\\Documents\\Poochy-24\\24h\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{887BB62E-7DE2-4F72-B947-5A5143A4DFC5}|24h\\24h.csproj|c:\\users\\lisam\\onedrive\\documents\\cours\\s2\\sa\u00E9\\s2.06\\poochy-24\\24h\\24h\\ia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{887BB62E-7DE2-4F72-B947-5A5143A4DFC5}|24h\\24h.csproj|c:\\users\\pro\\documents\\poochy-24\\24h\\24h\\ia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{887BB62E-7DE2-4F72-B947-5A5143A4DFC5}|24h\\24h.csproj|solutionrelative:24h\\ia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{887BB62E-7DE2-4F72-B947-5A5143A4DFC5}|24h\\24h.csproj|c:\\users\\lisam\\onedrive\\documents\\cours\\s2\\sa\u00E9\\s2.06\\poochy-24\\24h\\24h\\modules\\realisations\\moduleprisededecisions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{887BB62E-7DE2-4F72-B947-5A5143A4DFC5}|24h\\24h.csproj|c:\\users\\pro\\documents\\poochy-24\\24h\\24h\\modules\\realisations\\moduleprisededecisions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{887BB62E-7DE2-4F72-B947-5A5143A4DFC5}|24h\\24h.csproj|solutionrelative:24h\\modules\\realisations\\moduleprisededecisions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,24 +24,23 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "ModulePriseDeDecisions.cs",
-              "DocumentMoniker": "C:\\Users\\lisam\\OneDrive\\Documents\\Cours\\S2\\SA\u00E9\\S2.06\\Poochy-24\\24h\\24h\\Modules\\Realisations\\ModulePriseDeDecisions.cs",
+              "DocumentMoniker": "C:\\Users\\pro\\Documents\\Poochy-24\\24h\\24h\\Modules\\Realisations\\ModulePriseDeDecisions.cs",
               "RelativeDocumentMoniker": "24h\\Modules\\Realisations\\ModulePriseDeDecisions.cs",
-              "ToolTip": "C:\\Users\\lisam\\OneDrive\\Documents\\Cours\\S2\\SA\u00E9\\S2.06\\Poochy-24\\24h\\24h\\Modules\\Realisations\\ModulePriseDeDecisions.cs",
+              "ToolTip": "C:\\Users\\pro\\Documents\\Poochy-24\\24h\\24h\\Modules\\Realisations\\ModulePriseDeDecisions.cs",
               "RelativeToolTip": "24h\\Modules\\Realisations\\ModulePriseDeDecisions.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAC8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T14:38:40.612Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-17T14:38:40.612Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "IA.cs",
-              "DocumentMoniker": "C:\\Users\\lisam\\OneDrive\\Documents\\Cours\\S2\\SA\u00E9\\S2.06\\Poochy-24\\24h\\24h\\IA.cs",
+              "DocumentMoniker": "C:\\Users\\pro\\Documents\\Poochy-24\\24h\\24h\\IA.cs",
               "RelativeDocumentMoniker": "24h\\IA.cs",
-              "ToolTip": "C:\\Users\\lisam\\OneDrive\\Documents\\Cours\\S2\\SA\u00E9\\S2.06\\Poochy-24\\24h\\24h\\IA.cs",
+              "ToolTip": "C:\\Users\\pro\\Documents\\Poochy-24\\24h\\24h\\IA.cs",
               "RelativeToolTip": "24h\\IA.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAswE4AAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T14:37:35.476Z",
               "EditorCaption": ""

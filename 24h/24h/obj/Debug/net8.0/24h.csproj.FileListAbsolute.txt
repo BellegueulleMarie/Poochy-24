@@ -28,3 +28,11 @@ C:\Users\lisam\OneDrive\Documents\Cours\S2\SAé\S2.06\Poochy-24\24h\24h\obj\Debu
 C:\Users\lisam\OneDrive\Documents\Cours\S2\SAé\S2.06\Poochy-24\24h\24h\obj\Debug\net8.0\24h.pdb
 C:\Users\lisam\OneDrive\Documents\Cours\S2\SAé\S2.06\Poochy-24\24h\24h\obj\Debug\net8.0\24h.genruntimeconfig.cache
 C:\Users\lisam\OneDrive\Documents\Cours\S2\SAé\S2.06\Poochy-24\24h\24h\obj\Debug\net8.0\ref\24h.dll
+C:\Users\pro\Documents\Poochy-24\24h\24h\obj\Debug\net8.0\24h.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pro\Documents\Poochy-24\24h\24h\obj\Debug\net8.0\24h.AssemblyInfoInputs.cache
+C:\Users\pro\Documents\Poochy-24\24h\24h\obj\Debug\net8.0\24h.AssemblyInfo.cs
+C:\Users\pro\Documents\Poochy-24\24h\24h\obj\Debug\net8.0\24h.csproj.CoreCompileInputs.cache
+C:\Users\pro\Documents\Poochy-24\24h\24h\obj\Debug\net8.0\24h.sourcelink.json
+C:\Users\pro\Documents\Poochy-24\24h\24h\obj\Debug\net8.0\24h.dll
+C:\Users\pro\Documents\Poochy-24\24h\24h\obj\Debug\net8.0\refint\24h.dll
+C:\Users\pro\Documents\Poochy-24\24h\24h\obj\Debug\net8.0\24h.pdb
