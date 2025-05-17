@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("24h")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("IACryptOfTheNecroDancer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9fba21f4165f05c18e7a939661c0983c7c9a80f9")]
-[assembly: System.Reflection.AssemblyProductAttribute("24h")]
-[assembly: System.Reflection.AssemblyTitleAttribute("24h")]
+[assembly: System.Reflection.AssemblyProductAttribute("IACryptOfTheNecroDancer")]
+[assembly: System.Reflection.AssemblyTitleAttribute("IACryptOfTheNecroDancer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Généré par la classe MSBuild WriteCodeFragment.

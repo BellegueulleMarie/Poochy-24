@@ -61,25 +61,34 @@ namespace IACryptOfTheNecroDancer
         {
             //Initialisation
             this.aFiniDeCommuniquer = false;
+            bool initialiser = false;
             string messageRecu = "";
-            string messageEnvoye = "";
+            string messageEnvoye = "Poochy";
 
             //Mise en place de la connexion au serveur
             this.ModuleCommunication.EtablirConnexion();
-
-            //Boucle de discussion
-            while (!this.aFiniDeCommuniquer)
+            while ( !initialiser)
             {
-                //Détermination de la prochaine action
-                messageEnvoye = this.ModulePriseDeDecisions.DeterminerNouvelleAction(messageRecu);
-                //Envoi du message au serveur
-                this.moduleCommunication.EnvoyerMessage(messageEnvoye);
-                //Réception du message du serveur
+
                 messageRecu = this.ModuleCommunication.RecevoirMessage();
-                //Réaction au message 
-                this.ModuleReaction.ReagirAuMessageRecu(messageEnvoye, messageRecu);
+                this.moduleCommunication.EnvoyerMessage(messageEnvoye);
+                messageRecu = this.ModuleCommunication.RecevoirMessage();
+                initialiser = true;
             }
-            //Fermeture de la connexion
+            //Boucle de discussion
+            //while (!this.aFiniDeCommuniquer)
+            //{
+
+            //    //Détermination de la prochaine action
+            //    messageEnvoye = this.ModulePriseDeDecisions.DeterminerNouvelleAction(messageRecu);
+            //    //Envoi du message au serveur
+            //    this.moduleCommunication.EnvoyerMessage(messageEnvoye);
+            //    //Réception du message du serveur
+            //    messageRecu = this.ModuleCommunication.RecevoirMessage();
+            //    //Réaction au message 
+            //    this.ModuleReaction.ReagirAuMessageRecu(messageEnvoye, messageRecu);
+            //}
+            ////Fermeture de la connexion
             this.ModuleCommunication.FermerConnexion();
         }
 

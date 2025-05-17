@@ -1,0 +1,15 @@
+C:\Users\payre\Documents\GitHub\Poochy-24\24h\24h\bin\Debug\net8.0\IACryptOfTheNecroDancer.exe
+C:\Users\payre\Documents\GitHub\Poochy-24\24h\24h\bin\Debug\net8.0\IACryptOfTheNecroDancer.deps.json
+C:\Users\payre\Documents\GitHub\Poochy-24\24h\24h\bin\Debug\net8.0\IACryptOfTheNecroDancer.runtimeconfig.json
+C:\Users\payre\Documents\GitHub\Poochy-24\24h\24h\bin\Debug\net8.0\IACryptOfTheNecroDancer.dll
+C:\Users\payre\Documents\GitHub\Poochy-24\24h\24h\bin\Debug\net8.0\IACryptOfTheNecroDancer.pdb
+C:\Users\payre\Documents\GitHub\Poochy-24\24h\24h\obj\Debug\net8.0\IACryptOfTheNecroDancer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\payre\Documents\GitHub\Poochy-24\24h\24h\obj\Debug\net8.0\IACryptOfTheNecroDancer.AssemblyInfoInputs.cache
+C:\Users\payre\Documents\GitHub\Poochy-24\24h\24h\obj\Debug\net8.0\IACryptOfTheNecroDancer.AssemblyInfo.cs
+C:\Users\payre\Documents\GitHub\Poochy-24\24h\24h\obj\Debug\net8.0\IACryptOfTheNecroDancer.csproj.CoreCompileInputs.cache
+C:\Users\payre\Documents\GitHub\Poochy-24\24h\24h\obj\Debug\net8.0\IACryptOfTheNecroDancer.sourcelink.json
+C:\Users\payre\Documents\GitHub\Poochy-24\24h\24h\obj\Debug\net8.0\IACryptOfTheNecroDancer.dll
+C:\Users\payre\Documents\GitHub\Poochy-24\24h\24h\obj\Debug\net8.0\refint\IACryptOfTheNecroDancer.dll
+C:\Users\payre\Documents\GitHub\Poochy-24\24h\24h\obj\Debug\net8.0\IACryptOfTheNecroDancer.pdb
+C:\Users\payre\Documents\GitHub\Poochy-24\24h\24h\obj\Debug\net8.0\IACryptOfTheNecroDancer.genruntimeconfig.cache
+C:\Users\payre\Documents\GitHub\Poochy-24\24h\24h\obj\Debug\net8.0\ref\IACryptOfTheNecroDancer.dll
