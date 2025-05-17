@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DefaultNamespace;
+using IACryptOfTheNecroDancer.Metier.Cartes;
 
-namespace IACryptOfTheNecroDancer.Metier.Cartes
+namespace _24h.Metier.Personnages
 {
-    public class Joueur
+    public class Joueur : Personnage
     {
         #region --- Attributs ---
         // Attributs privé pour stocker les coordonnées du joueur

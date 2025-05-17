@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using _24h.Metier.Personnages;
 using IACryptOfTheNecroDancer.Metier.Cartes;
 using IACryptOfTheNecroDancer.Metier.Cartes.Objets;
 
