@@ -1,12 +1,4 @@
-﻿using System;
+﻿using IACryptOfTheNecroDancer;
 
-namespace MyApp
-{
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
-    }
-}
+IA ia = new IA();
+ia.Start();
