@@ -1,0 +1,15 @@
+C:\Users\lixy2\Documents\Poochy-24\24h\24h\obj\Debug\net8.0\24h.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lixy2\Documents\Poochy-24\24h\24h\obj\Debug\net8.0\24h.AssemblyInfoInputs.cache
+C:\Users\lixy2\Documents\Poochy-24\24h\24h\obj\Debug\net8.0\24h.AssemblyInfo.cs
+C:\Users\lixy2\Documents\Poochy-24\24h\24h\obj\Debug\net8.0\24h.csproj.CoreCompileInputs.cache
+C:\Users\lixy2\Documents\Poochy-24\24h\24h\obj\Debug\net8.0\24h.sourcelink.json
+C:\Users\lixy2\Documents\Poochy-24\24h\24h\bin\Debug\net8.0\24h.exe
+C:\Users\lixy2\Documents\Poochy-24\24h\24h\bin\Debug\net8.0\24h.deps.json
+C:\Users\lixy2\Documents\Poochy-24\24h\24h\bin\Debug\net8.0\24h.runtimeconfig.json
+C:\Users\lixy2\Documents\Poochy-24\24h\24h\bin\Debug\net8.0\24h.dll
+C:\Users\lixy2\Documents\Poochy-24\24h\24h\bin\Debug\net8.0\24h.pdb
+C:\Users\lixy2\Documents\Poochy-24\24h\24h\obj\Debug\net8.0\24h.dll
+C:\Users\lixy2\Documents\Poochy-24\24h\24h\obj\Debug\net8.0\refint\24h.dll
+C:\Users\lixy2\Documents\Poochy-24\24h\24h\obj\Debug\net8.0\24h.pdb
+C:\Users\lixy2\Documents\Poochy-24\24h\24h\obj\Debug\net8.0\24h.genruntimeconfig.cache
+C:\Users\lixy2\Documents\Poochy-24\24h\24h\obj\Debug\net8.0\ref\24h.dll
