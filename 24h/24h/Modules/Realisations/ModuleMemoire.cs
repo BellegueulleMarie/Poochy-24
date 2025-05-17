@@ -3,9 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using _24h.Metier.Personnages;
-using IACryptOfTheNecroDancer.Metier.Cartes;
-using IACryptOfTheNecroDancer.Metier.Cartes.Objets;
+
 
 namespace IACryptOfTheNecroDancer.Modules.Realisations
 {
@@ -16,11 +14,9 @@ namespace IACryptOfTheNecroDancer.Modules.Realisations
     {
         #region --- Attributs ---
 
-        private Joueur joueur; 
         #endregion
 
         #region --- Propriétés ---
-        public Joueur Joueur { get { return joueur; } }
 
         #endregion
 
@@ -33,10 +29,6 @@ namespace IACryptOfTheNecroDancer.Modules.Realisations
         #endregion
 
         #region --- Méthodes ---
-        public void GenererCarte(string messageRecu)
-        {
-
-        }
 
         /// <summary>
         /// Renvoie si la carte a été crée ou non
@@ -48,24 +40,12 @@ namespace IACryptOfTheNecroDancer.Modules.Realisations
         /// Renvoie true si l’attribut joueur est non null.
         /// </summary>
         /// <returns></returns>
-        public bool HasJoueur()
-        {
-            bool HasAJoueur = false;
-            if (this.joueur != null)
-            {
-                HasAJoueur = true;
-            }
-            return HasAJoueur;
-        }
+
 
         /// <summary>
         /// Génère le joueur à partir des coordonnées données en paramètre.
         /// </summary>
         /// <param name="coordonnees"></param>
-        public void GenererJoueur( )
-        {
-
-        }
         #endregion
     }
 }

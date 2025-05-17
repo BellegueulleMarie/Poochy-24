@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using IACryptOfTheNecroDancer.Metier.Cartes;
 
 namespace IACryptOfTheNecroDancer.Modules.Realisations
 {
@@ -32,17 +31,14 @@ namespace IACryptOfTheNecroDancer.Modules.Realisations
         /// </summary>
         /// <param name="messageEnvoye">Dernier message envoyé au serveur par l'IA</param>
         /// <param name="messageRecu">Réponse du serveur à ce message</param>
-        public void ReagirAuMessageRecu(string messageEnvoye,
-        string messageRecu)
+        public void ReagirAuMessageRecu(string messageEnvoye, string messageRecu)
         {
-
+            switch (messageEnvoye)
+            {
+                
+            }
         }
-        private void ReactionCarte(string messageRecu)
-        {
-            this.IA.ModuleMemoire.GenererCarte(messageRecu);
-        }
-
-
+ 
         #endregion
     }
 }
