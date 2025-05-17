@@ -62,28 +62,32 @@ namespace IACryptOfTheNecroDancer
             //Initialisation
             this.aFiniDeCommuniquer = false;
             string messageRecu = "";
-            string messageEnvoye = "POOOOSS";
+            string messageEnvoye = "";
             bool initialiser = false;
 
             //Mise en place de la connexion au serveur
             this.ModuleCommunication.EtablirConnexion();
-            while (!initialiser)
-            {
-
-                messageRecu = this.ModuleCommunication.RecevoirMessage();
-                this.moduleCommunication.EnvoyerMessage(messageEnvoye);
-                messageRecu = this.ModuleCommunication.RecevoirMessage();
-                initialiser = true;
-            }
-
-            //Mise en place de la connexion au serveur
-            this.ModuleCommunication.EtablirConnexion();
-
-            //Boucle de discussion
-            while (!this.aFiniDeCommuniquer)
+            
+            messageRecu = this.ModuleCommunication.RecevoirMessage();
+            while (!messageRecu.StartsWith("Bonjour"))
             {
                 //Détermination de la prochaine action
-                messageEnvoye = this.ModulePriseDeDecisions.DeterminerNouvelleAction(messageRecu);
+                messageEnvoye = ModulePriseDeDecisions.DeterminerNouvelleAction(messageRecu);
+                this.ModuleCommunication.EnvoyerMessage(messageEnvoye);
+                messageRecu = this.ModuleCommunication.RecevoirMessage();
+            }
+            // Ne rien faire tant qu'on n'est pas dans un tour de jeu
+            while (!messageRecu.StartsWith("DEBUT_TOUR") && !this.aFiniDeCommuniquer) 
+            { 
+                messageRecu = this.ModuleCommunication.RecevoirMessage();
+
+                if (messageRecu == "FIN")
+                {
+                    this.aFiniDeCommuniquer = true;
+                }
+
+                //Détermination de la prochaine action
+                messageEnvoye = ModulePriseDeDecisions.DeterminerNouvelleAction(messageRecu);
 
                 //Envoi du message au serveur
                 this.moduleCommunication.EnvoyerMessage(messageEnvoye);

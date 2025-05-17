@@ -4,10 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using DefaultNamespace;
-using IACryptOfTheNecroDancer.Metier.Algorithmes;
-using IACryptOfTheNecroDancer.Metier.Cartes;
-using IACryptOfTheNecroDancer.Metier.Cartes.Objets;
+
 
 
 namespace IACryptOfTheNecroDancer.Modules.Realisations
@@ -18,7 +15,7 @@ namespace IACryptOfTheNecroDancer.Modules.Realisations
     public class ModulePriseDeDecisions : Module
     {
         #region --- Attributs ---
-        private List<TypeMouvement> mouvements;
+        
         #endregion
 
         #region --- Propriétés ---
@@ -31,7 +28,7 @@ namespace IACryptOfTheNecroDancer.Modules.Realisations
         /// <param name="ia">Ia dont dépend le module</param>
         public ModulePriseDeDecisions(IA ia) : base(ia)
         { 
-            this.mouvements = new List<TypeMouvement>();
+            
         }
         #endregion
 
@@ -42,9 +39,31 @@ namespace IACryptOfTheNecroDancer.Modules.Realisations
         /// </summary>
         /// <param name="messageRecuDuServeur">Le dernier message reçu du serveur</param>
         /// <returns>Le message à envoyer au serveur</returns>
-        public string DeterminerNouvelleAction(string messageRecuDuServeur)
+        public static string DeterminerNouvelleAction(string messageRecuDuServeur)
         {
-            return "POOCHY";
+            string messageEnvoye = "";
+           
+            if (messageRecuDuServeur == "NOM_EQUIPE")
+            {
+                messageEnvoye = "POOCHY";
+            }
+            else if (messageRecuDuServeur.StartsWith("DEBUT_TOUR"))
+            {
+                string[] parties = messageRecuDuServeur.Split('|');
+                int numeroTour = int.Parse(parties[1]);
+                int numeroPhase = int.Parse(parties[2]);
+
+                // Pour l’instant, on décide de piocher une carte de savoir sûre (expédition 2)
+                messageEnvoye = "PIOCHER|0";
+            }
+            else if (messageRecuDuServeur == "FIN")
+            {
+                Console.WriteLine("Partie terminée.");
+            }
+
+
+
+            return messageEnvoye;
         }
     #endregion
 }
