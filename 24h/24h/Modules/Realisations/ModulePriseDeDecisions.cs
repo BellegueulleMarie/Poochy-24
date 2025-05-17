@@ -1,9 +1,10 @@
-﻿    using System;
+﻿
+    using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using DefaultNamespace;
 using IACryptOfTheNecroDancer.Metier.Algorithmes;
 using IACryptOfTheNecroDancer.Metier.Cartes;
 using IACryptOfTheNecroDancer.Metier.Cartes.Objets;
@@ -17,6 +18,7 @@ namespace IACryptOfTheNecroDancer.Modules.Realisations
     public class ModulePriseDeDecisions : Module
     {
         #region --- Attributs ---
+        private List<TypeMouvement> mouvements;
         #endregion
 
         #region --- Propriétés ---
@@ -29,7 +31,7 @@ namespace IACryptOfTheNecroDancer.Modules.Realisations
         /// <param name="ia">Ia dont dépend le module</param>
         public ModulePriseDeDecisions(IA ia) : base(ia)
         { 
-
+            this.mouvements = new List<TypeMouvement>();
         }
         #endregion
 
@@ -42,20 +44,7 @@ namespace IACryptOfTheNecroDancer.Modules.Realisations
         /// <returns>Le message à envoyer au serveur</returns>
         public string DeterminerNouvelleAction(string messageRecuDuServeur)
         {
-            string reponse = "SORTIR";
-
-            if (messageRecuDuServeur.Contains("Carte"))
-            {
-                //this.IA.ModuleMemoire.GenererCarte(messageRecuDuServeur);
-                //this.IA.ModuleReaction.ReagirAuMessageRecu("Carte", messageRecuDuServeur);
-                //reponse = this.IA.ModuleMemoire.Joueur.AfficherCarte();
-            }
-
-            if (reponse == "SORTIR")
-            {
-                this.IA.ArreterLaCommunication();
-            }
-            return reponse;
+            return "POOCHY";
         }
     #endregion
 }
