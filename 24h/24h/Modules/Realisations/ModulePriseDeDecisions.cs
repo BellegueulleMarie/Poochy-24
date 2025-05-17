@@ -51,20 +51,56 @@ namespace IACryptOfTheNecroDancer.Modules.Realisations
             else if (messageRecuDuServeur.StartsWith("DEBUT_TOUR"))
             {
                 string[] parties = messageRecuDuServeur.Split('|');
-                string nomEquipe = parties[1];
+                int numeroTour = int.Parse(parties[1]);
                 int numeroPhase = int.Parse(parties[2]);
 
                 actionsEnCours.Clear(); // Nouvelle phase : on réinitialise la fil
-                if (numeroPhase == 15) // Juste avant la lune de sang
+                if (numeroTour <= 8)
                 {
-                    actionsEnCours.Enqueue("UTILISER|DEFENSE");
-                    actionsEnCours.Enqueue("PIOCHER|0");
+                    if (numeroPhase == 3)
+                    {
+                        actionsEnCours.Enqueue("UTILISER|ATTAQUE");
+                        actionsEnCours.Enqueue("ATTAQUER|0");
+
+                    }
+                    else if (numeroPhase == 7)
+                    {
+                        actionsEnCours.Enqueue("UTILISER|ATTAQUE");
+                        actionsEnCours.Enqueue("ATTAQUER|1");
+                    }
+                    else if (numeroPhase == 11)
+                    {
+                        actionsEnCours.Enqueue("UTILISER|ATTAQUE");
+                        actionsEnCours.Enqueue("ATTAQUER|2");
+
+                    }
+                    else if (numeroPhase == 15)
+                    {
+                        actionsEnCours.Enqueue("UTILISER|ATTAQUE");
+                        actionsEnCours.Enqueue("ATTAQUER|2");
+
+                    }
+                    else
+                    {
+                        actionsEnCours.Enqueue("PIOCHER|1");
+                    }
                 }
-                else
+                else if (numeroTour > 8)
                 {
-                    actionsEnCours.Enqueue("PIOCHER|0");
+                    if (numeroPhase == 15)
+                    {
+                        actionsEnCours.Enqueue("UTILISER|DEFENSE");
+                        actionsEnCours.Enqueue("PIOCHER|0");
+                    }
+                    else
+                    {
+                        actionsEnCours.Enqueue("PIOCHER|0");
+                    }
+
                 }
+                
             }
+
             else if (messageRecuDuServeur.StartsWith("OK"))
             {
                 // On continue les actions prévues
