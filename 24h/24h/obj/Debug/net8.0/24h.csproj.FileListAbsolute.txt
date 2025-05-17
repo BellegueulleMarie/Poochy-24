@@ -1,0 +1,5 @@
+C:\Users\lixy2\Documents\Poochy-24\24h\24h\obj\Debug\net8.0\24h.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lixy2\Documents\Poochy-24\24h\24h\obj\Debug\net8.0\24h.AssemblyInfoInputs.cache
+C:\Users\lixy2\Documents\Poochy-24\24h\24h\obj\Debug\net8.0\24h.AssemblyInfo.cs
+C:\Users\lixy2\Documents\Poochy-24\24h\24h\obj\Debug\net8.0\24h.csproj.CoreCompileInputs.cache
+C:\Users\lixy2\Documents\Poochy-24\24h\24h\obj\Debug\net8.0\24h.sourcelink.json
