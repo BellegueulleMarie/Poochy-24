@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\lixy2\\Documents\\Poochy-24\\24h\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{887BB62E-7DE2-4F72-B947-5A5143A4DFC5}|24h\\24h.csproj|c:\\users\\lixy2\\documents\\poochy-24\\24h\\24h\\connexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{887BB62E-7DE2-4F72-B947-5A5143A4DFC5}|24h\\24h.csproj|solutionrelative:24h\\connexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{887BB62E-7DE2-4F72-B947-5A5143A4DFC5}|24h\\24h.csproj|c:\\users\\lixy2\\documents\\poochy-24\\24h\\24h\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{887BB62E-7DE2-4F72-B947-5A5143A4DFC5}|24h\\24h.csproj|solutionrelative:24h\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -35,6 +39,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Connexion.cs",
+              "DocumentMoniker": "C:\\Users\\lixy2\\Documents\\Poochy-24\\24h\\24h\\Connexion.cs",
+              "RelativeDocumentMoniker": "24h\\Connexion.cs",
+              "ToolTip": "C:\\Users\\lixy2\\Documents\\Poochy-24\\24h\\24h\\Connexion.cs",
+              "RelativeToolTip": "24h\\Connexion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T13:01:44.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\lixy2\\Documents\\Poochy-24\\24h\\24h\\Program.cs",
               "RelativeDocumentMoniker": "24h\\Program.cs",
@@ -42,8 +59,7 @@
               "RelativeToolTip": "24h\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T12:47:53.246Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-17T12:47:53.246Z"
             }
           ]
         }
